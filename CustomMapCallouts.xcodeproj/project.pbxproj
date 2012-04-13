@@ -15,6 +15,13 @@
 		E51FA7D015377727000A9781 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E51FA7CF15377727000A9781 /* AppDelegate.m */; };
 		E51FA7D315377727000A9781 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E51FA7D115377727000A9781 /* MainStoryboard.storyboard */; };
 		E51FA7D615377727000A9781 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E51FA7D515377727000A9781 /* ViewController.m */; };
+		E51FA7DE15377F75000A9781 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E51FA7DC15377F53000A9781 /* MapKit.framework */; };
+		E51FA7E11537974B000A9781 /* BusinessAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E51FA7E01537974B000A9781 /* BusinessAnnotation.m */; };
+		E51FA7E61537FBCE000A9781 /* CalloutMapAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E51FA7E31537FBCD000A9781 /* CalloutMapAnnotationView.m */; };
+		E51FA7E71537FBCE000A9781 /* BasicPinAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E51FA7E51537FBCE000A9781 /* BasicPinAnnotation.m */; };
+		E51FA7E91538017D000A9781 /* CustomBusinessCallout.xib in Resources */ = {isa = PBXBuildFile; fileRef = E51FA7E81538017D000A9781 /* CustomBusinessCallout.xib */; };
+		E51FA7ED1538027C000A9781 /* gas.png in Resources */ = {isa = PBXBuildFile; fileRef = E51FA7EC1538027C000A9781 /* gas.png */; };
+		E51FA7EF15380284000A9781 /* pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = E51FA7EE15380284000A9781 /* pizza.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +29,25 @@
 		E51FA7BF15377727000A9781 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E51FA7C115377727000A9781 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E51FA7C315377727000A9781 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E51FA7C715377727000A9781 /* CustomMapCallouts-Info.plist */ = {isa = PBXFileReference; path = "CustomMapCallouts-Info.plist"; sourceTree = "<group>"; };
+		E51FA7C715377727000A9781 /* CustomMapCallouts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomMapCallouts-Info.plist"; sourceTree = "<group>"; };
 		E51FA7C915377727000A9781 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E51FA7CB15377727000A9781 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E51FA7CD15377727000A9781 /* CustomMapCallouts-Prefix.pch */ = {isa = PBXFileReference; path = "CustomMapCallouts-Prefix.pch"; sourceTree = "<group>"; };
-		E51FA7CE15377727000A9781 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E51FA7CD15377727000A9781 /* CustomMapCallouts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomMapCallouts-Prefix.pch"; sourceTree = "<group>"; };
+		E51FA7CE15377727000A9781 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E51FA7CF15377727000A9781 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E51FA7D215377727000A9781 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		E51FA7D415377727000A9781 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		E51FA7D415377727000A9781 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E51FA7D515377727000A9781 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E51FA7DC15377F53000A9781 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E51FA7DF1537974B000A9781 /* BusinessAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessAnnotation.h; sourceTree = "<group>"; };
+		E51FA7E01537974B000A9781 /* BusinessAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessAnnotation.m; sourceTree = "<group>"; };
+		E51FA7E21537FBCD000A9781 /* CalloutMapAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalloutMapAnnotationView.h; sourceTree = "<group>"; };
+		E51FA7E31537FBCD000A9781 /* CalloutMapAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalloutMapAnnotationView.m; sourceTree = "<group>"; };
+		E51FA7E41537FBCD000A9781 /* BasicPinAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicPinAnnotation.h; sourceTree = "<group>"; };
+		E51FA7E51537FBCE000A9781 /* BasicPinAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicPinAnnotation.m; sourceTree = "<group>"; };
+		E51FA7E81538017D000A9781 /* CustomBusinessCallout.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomBusinessCallout.xib; sourceTree = "<group>"; };
+		E51FA7EC1538027C000A9781 /* gas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gas.png; sourceTree = "<group>"; };
+		E51FA7EE15380284000A9781 /* pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E51FA7DE15377F75000A9781 /* MapKit.framework in Frameworks */,
 				E51FA7C015377727000A9781 /* UIKit.framework in Frameworks */,
 				E51FA7C215377727000A9781 /* Foundation.framework in Frameworks */,
 				E51FA7C415377727000A9781 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +85,7 @@
 		E51FA7BE15377727000A9781 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E51FA7DC15377F53000A9781 /* MapKit.framework */,
 				E51FA7BF15377727000A9781 /* UIKit.framework */,
 				E51FA7C115377727000A9781 /* Foundation.framework */,
 				E51FA7C315377727000A9781 /* CoreGraphics.framework */,
@@ -77,6 +96,8 @@
 		E51FA7C515377727000A9781 /* CustomMapCallouts */ = {
 			isa = PBXGroup;
 			children = (
+				E51FA7EB15380254000A9781 /* Images */,
+				E51FA7EA15380228000A9781 /* Map */,
 				E51FA7CE15377727000A9781 /* AppDelegate.h */,
 				E51FA7CF15377727000A9781 /* AppDelegate.m */,
 				E51FA7D115377727000A9781 /* MainStoryboard.storyboard */,
@@ -96,6 +117,29 @@
 				E51FA7CD15377727000A9781 /* CustomMapCallouts-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E51FA7EA15380228000A9781 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				E51FA7E81538017D000A9781 /* CustomBusinessCallout.xib */,
+				E51FA7DF1537974B000A9781 /* BusinessAnnotation.h */,
+				E51FA7E01537974B000A9781 /* BusinessAnnotation.m */,
+				E51FA7E41537FBCD000A9781 /* BasicPinAnnotation.h */,
+				E51FA7E51537FBCE000A9781 /* BasicPinAnnotation.m */,
+				E51FA7E21537FBCD000A9781 /* CalloutMapAnnotationView.h */,
+				E51FA7E31537FBCD000A9781 /* CalloutMapAnnotationView.m */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		E51FA7EB15380254000A9781 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E51FA7EE15380284000A9781 /* pizza.png */,
+				E51FA7EC1538027C000A9781 /* gas.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +194,9 @@
 			files = (
 				E51FA7CA15377727000A9781 /* InfoPlist.strings in Resources */,
 				E51FA7D315377727000A9781 /* MainStoryboard.storyboard in Resources */,
+				E51FA7E91538017D000A9781 /* CustomBusinessCallout.xib in Resources */,
+				E51FA7ED1538027C000A9781 /* gas.png in Resources */,
+				E51FA7EF15380284000A9781 /* pizza.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +210,9 @@
 				E51FA7CC15377727000A9781 /* main.m in Sources */,
 				E51FA7D015377727000A9781 /* AppDelegate.m in Sources */,
 				E51FA7D615377727000A9781 /* ViewController.m in Sources */,
+				E51FA7E11537974B000A9781 /* BusinessAnnotation.m in Sources */,
+				E51FA7E61537FBCE000A9781 /* CalloutMapAnnotationView.m in Sources */,
+				E51FA7E71537FBCE000A9781 /* BasicPinAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
